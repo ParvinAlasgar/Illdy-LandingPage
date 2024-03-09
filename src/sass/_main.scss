@@ -1,0 +1,32 @@
+@import "../sass/variables";
+
+// Background img
+%bck_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Header
+header {
+  background-image: url(../images/front-page-header.jpg);
+  background-attachment: fixed;
+  @extend %bck_img;
+  padding: 350px 0;
+  h1 {
+    font-size: 60px;
+  }
+  button {
+    border: solid;
+    transition: background-color, border-color 0.3s ease-in-out;
+    &:hover {
+      background-color: rgba(73, 72, 72, 0.555) !important;
+    }
+  }
+  .right {
+    &:hover {
+      border-color: $color_main !important;
+      background-color: $color_main !important;
+    }
+  }
+}
+// End Header

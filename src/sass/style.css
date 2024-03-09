@@ -1,1 +1,24 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url(../images/front-page-header.jpg);
+  background-attachment: fixed;
+  padding: 350px 0;
+}
+header h1 {
+  font-size: 60px;
+}
+header button {
+  border: solid;
+  transition: background-color, border-color 0.3s ease-in-out;
+}
+header button:hover {
+  background-color: rgba(73, 72, 72, 0.555) !important;
+}
+header .right:hover {
+  border-color: #6A4D8A !important;
+  background-color: #6A4D8A !important;
+}/*# sourceMappingURL=style.css.map */
