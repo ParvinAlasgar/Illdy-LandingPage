@@ -29,4 +29,12 @@ main #about .wrapper img {
 }
 main #about .wrapper img:hover {
   transform: scale(1.4);
+}
+main #project img {
+  cursor: pointer;
+  filter: blur(3px);
+  transition: filter 0.7s ease-in-out;
+}
+main #project img:hover {
+  filter: blur(0);
 }/*# sourceMappingURL=style.css.map */

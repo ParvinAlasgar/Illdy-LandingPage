@@ -46,5 +46,18 @@ main {
     }
   }
   // End About
+
+  // Project
+  #project {
+    img {
+      cursor: pointer;
+      filter: blur(3px);
+      transition: filter 0.7s ease-in-out;
+      &:hover {
+        filter: blur(0);
+      }
+    }
+  }
+  // End Project
 }
 // End Main
