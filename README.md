@@ -1,2 +1,1 @@
-# Illdy-LandingPage
-This is a simple web landing page application.
+![screenshot](src/images/screenshot.png)
