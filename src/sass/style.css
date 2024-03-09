@@ -43,4 +43,13 @@ main #testimonials {
 }
 main #testimonials p {
   background-color: #6A4D8A;
+}
+main #news .wrapper {
+  cursor: pointer;
+}
+main #news .wrapper img {
+  transition: transform 0.7s ease-in-out;
+}
+main #news .wrapper:hover img {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
