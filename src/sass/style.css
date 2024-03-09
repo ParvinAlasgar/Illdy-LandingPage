@@ -52,4 +52,11 @@ main #news .wrapper img {
 }
 main #news .wrapper:hover img {
   transform: scale(1.3);
+}
+
+footer li {
+  transition: transform 0.7s ease-in-out;
+}
+footer li:hover {
+  transform: translateX(10px);
 }/*# sourceMappingURL=style.css.map */

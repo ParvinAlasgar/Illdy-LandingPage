@@ -85,3 +85,14 @@ main {
   // End News
 }
 // End Main
+
+// Footer
+footer {
+  li {
+    transition: transform 0.7s ease-in-out;
+    &:hover {
+      transform: translateX(10px);
+    }
+  }
+}
+// End Footer
