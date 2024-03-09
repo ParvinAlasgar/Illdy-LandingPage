@@ -21,4 +21,12 @@ header button:hover {
 header .right:hover {
   border-color: #6A4D8A !important;
   background-color: #6A4D8A !important;
+}
+
+main #about .wrapper img {
+  transition: transform 0.7s ease-in-out;
+  cursor: pointer;
+}
+main #about .wrapper img:hover {
+  transform: scale(1.4);
 }/*# sourceMappingURL=style.css.map */

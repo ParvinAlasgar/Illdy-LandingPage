@@ -30,3 +30,21 @@ header {
   }
 }
 // End Header
+
+// Main
+main {
+  // About
+  #about {
+    .wrapper {
+      img {
+        transition: transform 0.7s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.4);
+        }
+      }
+    }
+  }
+  // End About
+}
+// End Main
