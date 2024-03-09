@@ -59,5 +59,15 @@ main {
     }
   }
   // End Project
+
+  // Testimonials
+  #testimonials {
+    background-image: url(../images/testiomnials-background.jpg);
+    @extend %bck_img;
+    p {
+      background-color: $color_main;
+    }
+  }
+  // End Testimonials
 }
 // End Main

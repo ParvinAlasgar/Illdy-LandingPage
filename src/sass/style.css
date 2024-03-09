@@ -1,4 +1,4 @@
-header {
+main #testimonials, header {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,4 +37,10 @@ main #project img {
 }
 main #project img:hover {
   filter: blur(0);
+}
+main #testimonials {
+  background-image: url(../images/testiomnials-background.jpg);
+}
+main #testimonials p {
+  background-color: #6A4D8A;
 }/*# sourceMappingURL=style.css.map */
