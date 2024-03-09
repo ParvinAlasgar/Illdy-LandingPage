@@ -3,6 +3,10 @@ main #testimonials, header {
   background-size: cover;
 }
 
+nav li {
+  font-size: 20px;
+}
+
 header {
   background-image: url(../images/front-page-header.jpg);
   background-attachment: fixed;
